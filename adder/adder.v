@@ -19,7 +19,7 @@ wire C_16;
 wire [31:0] F;
 
 always @(*) begin
-	sum <= F;
+	 sum <= F;
 end 
 	 
 Add16_head add16_1(.a(a[15:0]),.b(b[15:0]),.C_in(1'b0),.F(F[15:0]),.Gm(G[0]),.Pm(P[0]));

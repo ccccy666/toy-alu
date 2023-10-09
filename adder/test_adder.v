@@ -22,7 +22,7 @@ module test_adder;
 	reg  [15:0] a, b;
 	reg	 [16:0] res;
 
-	adder adder (a, b, answer, carry);
+	Add adder (a, b, answer, carry);
 	
 	integer i;
 	initial begin

@@ -1,0 +1,2 @@
+iverilog -o output.vvp test_adder.v
+vvp output.vvp
